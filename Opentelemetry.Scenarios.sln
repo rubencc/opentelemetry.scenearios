@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.WebApp.Producer.EnableOT", "scr\Opentelemetry.Scenarios.WebApp.Producer.EnableOT\Opentelemetry.Scenarios.WebApp.Producer.EnableOT.csproj", "{14F48875-4254-410F-8B6C-A8FDFB30DB04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.WebApp.Producer.EnableOTAndAsp", "scr\Opentelemetry.Scenarios.WebApp.Producer.EnableOTAndAsp\Opentelemetry.Scenarios.WebApp.Producer.EnableOTAndAsp.csproj", "{86A2EB6A-469B-4DB2-9016-6357FE972252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A2EB6A-469B-4DB2-9016-6357FE972252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A2EB6A-469B-4DB2-9016-6357FE972252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A2EB6A-469B-4DB2-9016-6357FE972252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A2EB6A-469B-4DB2-9016-6357FE972252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

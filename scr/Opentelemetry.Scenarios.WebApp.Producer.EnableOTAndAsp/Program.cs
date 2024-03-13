@@ -21,6 +21,7 @@ builder.Services.AddOpenTelemetry().WithTracing(x =>
         .AddService(serviceName: "Console.Producer.EnableOT", serviceVersion: "1.0.0"));
 
     x.AddSource("NServiceBus.*")
+        .AddAspNetCoreInstrumentation()
         .AddConsoleExporter();
 });
 
@@ -77,7 +78,7 @@ app.MapPost("Producer/EnableOt/publish", async (IMessageSession context) =>
 {
     await context.Publish(new TestEvent()
     {
-        Source = "WebApp.Producer.EnableOT without asp instrumentation"
+        Source = "WebApp.Producer.EnableOT with asp instrumentation"
     }).ConfigureAwait(false);
 
 
