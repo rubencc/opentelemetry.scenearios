@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.Console.Consumer", "scr\Opentelemetry.Scenarios.Console.Consumer\Opentelemetry.Scenarios.Console.Consumer.csproj", "{B9FA1AAD-7B64-49DD-8EF2-DB6B947AA123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.Console.Producer.DisableOT", "scr\Opentelemetry.Scenarios.Console.Producer.DisableOT\Opentelemetry.Scenarios.Console.Producer.DisableOT.csproj", "{E13D6263-3554-49D6-8C25-A0564CAE9A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.Console.Producer.EnableOT", "scr\Opentelemetry.Scenarios.Console.Producer.EnableOT\Opentelemetry.Scenarios.Console.Producer.EnableOT.csproj", "{EA143498-78AD-4037-AD3D-3EF441D1FAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "scr\Events\Events.csproj", "{45786F6B-6E80-4688-84A7-F644177868E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.WebApp.Producer.DisableOT", "scr\Opentelemetry.Scenarios.WebApp.Producer.DisableOT\Opentelemetry.Scenarios.WebApp.Producer.DisableOT.csproj", "{CB41C1A2-70D7-4D9E-A2F5-E79F8568AA35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opentelemetry.Scenarios.WebApp.Producer.EnableOT", "scr\Opentelemetry.Scenarios.WebApp.Producer.EnableOT\Opentelemetry.Scenarios.WebApp.Producer.EnableOT.csproj", "{14F48875-4254-410F-8B6C-A8FDFB30DB04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FA1AAD-7B64-49DD-8EF2-DB6B947AA123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FA1AAD-7B64-49DD-8EF2-DB6B947AA123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FA1AAD-7B64-49DD-8EF2-DB6B947AA123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FA1AAD-7B64-49DD-8EF2-DB6B947AA123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13D6263-3554-49D6-8C25-A0564CAE9A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13D6263-3554-49D6-8C25-A0564CAE9A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13D6263-3554-49D6-8C25-A0564CAE9A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13D6263-3554-49D6-8C25-A0564CAE9A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA143498-78AD-4037-AD3D-3EF441D1FAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA143498-78AD-4037-AD3D-3EF441D1FAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA143498-78AD-4037-AD3D-3EF441D1FAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA143498-78AD-4037-AD3D-3EF441D1FAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45786F6B-6E80-4688-84A7-F644177868E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45786F6B-6E80-4688-84A7-F644177868E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45786F6B-6E80-4688-84A7-F644177868E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45786F6B-6E80-4688-84A7-F644177868E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB41C1A2-70D7-4D9E-A2F5-E79F8568AA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB41C1A2-70D7-4D9E-A2F5-E79F8568AA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB41C1A2-70D7-4D9E-A2F5-E79F8568AA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB41C1A2-70D7-4D9E-A2F5-E79F8568AA35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F48875-4254-410F-8B6C-A8FDFB30DB04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
